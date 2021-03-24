@@ -141,15 +141,15 @@ input[type="text"]:focus {
 }
 
 /* Edit Task */
-ul li input[type=text] {
+.item__text {
   display: none;
 }
 
-ul li.edit-mode input[type=text] {
+.edit-mode .item__text {
   display: inline-block;
   width: 224px;
 }
 
-ul li.edit-mode label {
+.edit-mode .item__label {
   display: none;
 }
